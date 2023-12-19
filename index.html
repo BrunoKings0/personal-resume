@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Personal Resume</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" >
+
+  <title>Seu Site</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="animate__animated">About me</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills"><span class="animate__animated">Skills</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#experience"><span class="animate__animated">Experience</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="animate__animated">Certifications</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="animate__animated">Contact</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="animate__animated">Blog</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<div id="page" class="container">
+
+    <div class="row aboutme align-items-center" >
+      <div class="row">
+        <div class="col">
+          <h1>About me</h1>
+        </div> 
+      </div>
+      <div class="col-md-6  coluna">
+        <div class="contenido_imagem">
+          <img class="img-fluid" src="profile_foto.jpeg" alt="profile_foto" style="clip-path: circle();width: 70%;">
+        </div>
+      </div>
+      <div class="col coluna">
+        <div class="contenido_text">
+          <h2>Bruno Vieira</h2>
+          <p>Hello world! I'm Bruno, born and raised in Brazil, but currently living in Spain in the beautiful
+             and sunny city of Seville. When I'm not working I like to be on the nature, read, write or dedicating some time
+             to my new passion: photography. 
+          </p>
+          <p>I have always been passionate about creation,
+             of any kind, and I decided to study control, automation and robotics engineering 
+             to pass my days creating eletronic devices and robots &#129302. 
+             During my time at university I discovered that the world of programming and data was 
+             much cooler and dynamic, so here I am!</p> 
+          <p>  I have been working in the data area for over 8 years and have gone through several moments of paradigm
+             shifts and technologies that this area provides: since the entire ecosystem in on-premises, and then moving on
+              to the cloud working with Data Warehouse, Data Lake, Data Lakehouse and the most recent Data mesh architecture.
+          </p>
+          <p>
+            My main language is Python, but at a non-professional level I also know some Front-End languages to play web development.
+            I have already worked with all the three main clouds on the market: AWS, Azure and Google. I have also worked with the 2 biggest
+             players in the big data world: Databricks and Snowflake. I have my preferences, but it's a secret haha. 
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row skills align-items-center" id="skills">
+      <div class="row">
+        <div class="col">
+          <h1>Skills</h1>
+          <p>Technical skills</p>
+        </div> 
+      </div>
+      <!--First column-->
+      <div class="col coluna">
+
+        <div class="first-bar">
+          <div class="text_bar">
+            <span>Azure Cloud</span>
+            <span>80%</span>
+          </div>
+          <div class="skill-progress">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar"
+                aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100"
+                style="background-color: rgb(32, 9, 245); width: 90%;">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="second-bar">
+          <div class="text_bar">
+            <span >Google Cloud</span>
+            <span>50%</span>
+          </div>
+          <div class="skill-progress">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar"
+                aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100"
+                style="background-color: rgb(199, 219, 229); width: 50%;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="first-bar">
+          <div class="text_bar">
+            <span>Databricks</span>
+            <span>90%</span>
+          </div>
+          <div class="skill-progress">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar"
+                aria-valuenow="90" aria-valuemin="0"
+                aria-valuemax="100"
+                style="background-color: rgb(244, 0, 0); width: 90%;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="first-bar">
+          <div class="text_bar">
+            <span>Python</span>
+            <span>80%</span>
+          </div>
+          <div class="skill-progress">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar"
+                aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100"
+                style="background-color: #6d05ff; width: 80%;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--Second column-->
+      <div class="col coluna">
+
+        <div>
+          <div class="text_bar">
+            <span>AWS</span>
+            <span>70%</span>
+          </div>
+          <div class="skill-progress">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar"
+                aria-valuenow="70" aria-valuemin="0"
+                aria-valuemax="100"
+                style="background-color: #ef510b; width: 70%;">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <div class="text_bar">
+            <span>Airflow</span>
+            <span>95%</span>
+          </div>
+          <div class="skill-progress">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar"
+                aria-valuenow="95" aria-valuemin="0"
+                aria-valuemax="100"
+                style="background-color: rgb(174, 71, 2); width: 95%;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="text_bar">
+            <span>Snowflake</span>
+            <span>95%</span>
+          </div>
+          <div class="skill-progress">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar"
+                aria-valuenow="95" aria-valuemin="0"
+                aria-valuemax="100"
+                style="background-color: rgb(4, 141, 240); width: 95%;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="text_bar">
+            <span>SQL</span>
+            <span>95%</span>
+          </div>
+          <div class="skill-progress">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar"
+                aria-valuenow="95" aria-valuemin="0"
+                aria-valuemax="100"
+                style="background-color: #fac227; width: 95%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+
+    <div class="row experience align-items-center"  id="experience">
+      <div class="row">
+        <div class="col">
+          <h1>Experience</h1>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+          <p>blabla</p>
+          <hr>
+
+        </div> 
+      </div>
+
+    </div>
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
